@@ -1,7 +1,7 @@
 import cv2
 from matplotlib import pyplot as plt
 
-img = cv2.imread("C:/Users/ajape/SOI_DIP/ImageFundamentals/multiple_blocks.png")
+img = cv2.imread("C:/Users/ajape/SOI_DIP/ImageFundamentals/four_blocks.png")
 print("Number of Pixels in the image: ", img.shape[0] * img.shape[1])
 
 # define a function to compute and plot histogram
